@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:configChanges="keyboardHidden|orientation|screenSize">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/button"
+        android:onClick="onClickBtnAddStudents"
+        android:text="@string/btn_students"
+        android:textColor="@color/text" />
+
+    <TextView
+        android:id="@+id/txt_counter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ground"
+        android:textColor="@color/text"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMaxTextSize="50sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text"
+        android:text="@string/txt_students" />
+
+</LinearLayout>
