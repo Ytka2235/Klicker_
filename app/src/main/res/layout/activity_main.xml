@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:configChanges="keyboardHidden|orientation|screenSize">
 
     <Button
         android:layout_width="match_parent"
@@ -21,7 +22,10 @@
         android:background="@drawable/ground"
         android:textColor="@color/text"
         android:gravity="center"
-        android:textSize="50sp" />
+        android:textSize="30sp"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMaxTextSize="50sp"
+        tools:targetApi="o" />
 
     <TextView
         android:layout_width="wrap_content"

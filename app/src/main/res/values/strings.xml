@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">StudentCounter</string>
-    <string name="txt_students">лещей поймано</string>
+    <string name="app_name">Даём лещей клоуну</string>
+    <string name="txt_students">лещей получено</string>
     <string name="btn_students">Дать леща Зеленскому</string>
 </resources>
